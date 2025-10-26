@@ -1,0 +1,10 @@
+streamlit
+google-generativeai
+pandas
+beautifulsoup4
+requests
+tenacity
+python-dotenv
+altair
+plotly
+streamlit-js-eval

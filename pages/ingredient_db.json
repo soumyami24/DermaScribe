@@ -1,0 +1,224 @@
+{
+  "ingredient_profiles": {
+    "salicylic-acid": {
+      "display_name": "Salicylic Acid (BHA)",
+      "type": "BHA Exfoliant",
+      "description": "A beta-hydroxy acid (BHA) that is oil-soluble, allowing it to penetrate deep into pores to dissolve oil, debris, and dead skin cells. It is highly effective for treating acne, blackheads, and reducing inflammation.",
+      "warning": "Can be drying. Start with 2-3x weekly. Avoid if you are allergic to aspirin (as they are related). Always wear sunscreen.",
+      "best_time": "PM",
+      "concerns_targeted": [
+        "acne",
+        "blackheads",
+        "clogged_pores",
+        "oily_skin"
+      ],
+      "pairs_well_with": [
+        "niacinamide",
+        "hyaluronic_acid",
+        "centella_asiatica",
+        "glycerin"
+      ],
+      "conflicts_with": [
+        "retinol",
+        "other_exfoliants_aha_pha",
+        "vitamin_c_acidic",
+        "benzoyl_peroxide"
+      ]
+    },
+    "retinol": {
+      "display_name": "Retinol",
+      "type": "Retinoid (Vitamin A)",
+      "description": "The gold standard for anti-aging. It speeds up skin cell turnover, boosts collagen production, and helps clear acne. It effectively reduces the appearance of fine lines, wrinkles, and uneven skin tone.",
+      "warning": "Can cause irritation, redness, and peeling (purging) when first starting. Start with a low concentration (0.25%-0.5%) 1-2x weekly and slowly increase. MUST be used with sunscreen.",
+      "best_time": "PM Only",
+      "concerns_targeted": [
+        "fine_lines_wrinkles",
+        "uneven_skin_tone",
+        "acne",
+        "loss_of_firmness"
+      ],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "niacinamide",
+        "ceramides",
+        "peptides"
+      ],
+      "conflicts_with": [
+        "vitamin_c_acidic",
+        "benzoyl_peroxide",
+        "aha_bha_exfoliants"
+      ]
+    },
+    "niacinamide": {
+      "display_name": "Niacinamide",
+      "type": "Vitamin B3 / Calming",
+      "description": "A versatile, water-soluble vitamin that works with the natural substances in your skin. It helps visibly minimize enlarged pores, improve uneven skin tone, soften fine lines, diminish dullness, and strengthen a weakened skin barrier.",
+      "warning": "Generally very well-tolerated. High concentrations (above 10%) can sometimes cause irritation for sensitive skin.",
+      "best_time": "AM / PM",
+      "concerns_targeted": [
+        "enlarged_pores",
+        "oily_skin",
+        "redness",
+        "uneven_skin_tone",
+        "weak_skin_barrier"
+      ],
+      "pairs_well_with": [
+        "retinol",
+        "hyaluronic_acid",
+        "vitamin_c",
+        "aha_bha_exfoliants",
+        "ceramides"
+      ],
+      "conflicts_with": []
+    },
+    "hyaluronic-acid": {
+      "display_name": "Hyaluronic Acid",
+      "type": "Humectant / Hydrator",
+      "description": "A molecule that acts like a sponge, attracting and holding up to 1,000 times its weight in water. It provides intense hydration, plumps the skin, and reduces the appearance of dehydration lines. Should be applied to damp skin.",
+      "warning": "Very safe. In very dry climates, it can pull moisture *from* the skin if not sealed in with a moisturizer on top.",
+      "best_time": "AM / PM",
+      "concerns_targeted": [
+        "dehydration",
+        "dryness",
+        "fine_lines"
+      ],
+      "pairs_well_with": [
+        "retinol",
+        "vitamin_c",
+        "niacinamide",
+        "aha_bha_exfoliants"
+      ],
+      "conflicts_with": []
+    },
+    "vitamin-c": {
+      "display_name": "Vitamin C (L-Ascorbic Acid)",
+      "type": "Antioxidant",
+      "description": "A potent antioxidant that protects the skin from environmental damage (like pollution and UV rays). It brightens the complexion, fades hyperpigmentation and dark spots, and supports collagen production for firmer skin.",
+      "warning": "L-Ascorbic Acid (the pure form) is highly unstable and can oxidize (turn orange/brown) quickly, making it ineffective. Can sting on sensitive skin.",
+      "best_time": "AM",
+      "concerns_targeted": [
+        "hyperpigmentation",
+        "dullness",
+        "uneven_skin_tone",
+        "sun_damage"
+      ],
+      "pairs_well_with": [
+        "vitamin_e",
+        "ferulic_acid",
+        "hyaluronic_acid",
+        "sunscreen"
+      ],
+      "conflicts_with": [
+        "retinol",
+        "aha_bha_exfoliants",
+        "benzoyl_peroxide"
+      ]
+    },
+    "glycolic-acid": {
+      "display_name": "Glycolic Acid (AHA)",
+      "type": "AHA Exfoliant",
+      "description": "An alpha-hydroxy acid (AHA) with the smallest molecular size, allowing it to penetrate effectively. It dissolves the 'glue' holding dead skin cells to the surface, revealing brighter, smoother, more even-toned skin.",
+      "warning": "Can cause sun sensitivity; daily sunscreen is essential. Can be irritating for sensitive skin. Start slowly (1-2x weekly).",
+      "best_time": "PM",
+      "concerns_targeted": [
+        "dullness",
+        "uneven_skin_texture",
+        "hyperpigmentation",
+        "fine_lines"
+      ],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "ceramides",
+        "glycerin"
+      ],
+      "conflicts_with": [
+        "retinol",
+        "other_exfoliants_bha_pha",
+        "vitamin_c_acidic"
+      ]
+    },
+    "ceramides": {
+      "display_name": "Ceramides",
+      "type": "Barrier Repair",
+      "description": "Lipids (fats) that are naturally found in the skin, making up over 50% of its composition. They act as the 'mortar' between skin cells, holding the skin barrier together, sealing in moisture, and protecting from external irritants.",
+      "warning": "Extremely safe and beneficial for all skin types, especially dry, sensitive, or compromised skin.",
+      "best_time": "AM / PM",
+      "concerns_targeted": [
+        "weak_skin_barrier",
+        "dryness",
+        "sensitivity",
+        "irritation"
+      ],
+      "pairs_well_with": [
+        "retinol",
+        "aha_bha_exfoliants",
+        "hyaluronic_acid",
+        "niacinamide",
+        "glycerin"
+      ],
+      "conflicts_with": []
+    },
+    "benzoyl-peroxide": {
+      "display_name": "Benzoyl Peroxide",
+      "type": "Acne Treatment",
+      "description": "A powerful antibacterial ingredient that works by releasing oxygen to kill acne-causing bacteria (C. acnes) within the pore. It is highly effective for inflammatory acne (pustules and papules).",
+      "warning": "Can be very drying and irritating. Can bleach fabrics (towels, pillowcases). Start with a low % (2.5-5%).",
+      "best_time": "AM / PM (as spot treat or wash)",
+      "concerns_targeted": [
+        "inflammatory_acne",
+        "pimples"
+      ],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "ceramides",
+        "clindamycin (prescription)"
+      ],
+      "conflicts_with": [
+        "retinol",
+        "vitamin_c",
+        "aha_bha_exfoliants"
+      ]
+    },
+    "centella-asiatica": {
+      "display_name": "Centella Asiatica (Cica)",
+      "type": "Calming / Soothing",
+      "description": "A medicinal herb (also known as Cica or Tiger Grass) renowned for its calming, soothing, and wound-healing properties. It's rich in antioxidants and helps to reduce redness, inflammation, and repair a compromised skin barrier.",
+      "warning": "Very well-tolerated and excellent for sensitive, irritated, or acne-prone skin.",
+      "best_time": "AM / PM",
+      "concerns_targeted": [
+        "redness",
+        "inflammation",
+        "sensitivity",
+        "weak_skin_barrier"
+      ],
+      "pairs_well_with": [
+        "aha_bha_exfoliants",
+        "retinol",
+        "hyaluronic_acid",
+        "niacinamide"
+      ],
+      "conflicts_with": []
+    },
+    "azelaic-acid": {
+      "display_name": "Azelaic Acid",
+      "type": "Acid / Calming",
+      "description": "A dicarboxylic acid that is a true multi-tasker. It gently exfoliates, unclogs pores, kills acne bacteria, and (most uniquely) reduces inflammation and redness, making it a top choice for both acne and rosacea-prone skin.",
+      "warning": "Generally well-tolerated, but can cause mild itching or stinging at first. Slower results than other acids, but much gentler.",
+      "best_time": "AM / PM",
+      "concerns_targeted": [
+        "acne",
+        "rosacea",
+        "redness",
+        "hyperpigmentation"
+      ],
+      "pairs_well_with": [
+        "niacinamide",
+        "hyaluronic_acid",
+        "ceramides"
+      ],
+      "conflicts_with": [
+        "other_exfoliants_aha_bha (use on alternate days)"
+      ]
+    }
+  }
+}

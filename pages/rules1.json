@@ -1,0 +1,151 @@
+{
+  "version": "1.1",
+  "last_updated": "2025-10-26",
+  "ingredient_profiles": {
+    "retinol": {
+      "display_name": "Retinol",
+      "type": "retinoid",
+      "strength": "high",
+      "best_time": "PM",
+      "conflicts_with": ["bha", "aha", "vitamin_c_acidic", "benzoyl_peroxide"],
+      "pairs_well_with": ["hyaluronic_acid", "niacinamide", "ceramides", "peptides"],
+      "warning": "Makes skin highly sensitive to sun. Sunscreen is mandatory. Start with low frequency (1-2x weekly).",
+      "irritation_risk": "high",
+      "stability": "sensitive"
+    },
+    "salicylic acid": {
+      "display_name": "Salicylic Acid (BHA)",
+      "type": "bha",
+      "strength": "medium",
+      "best_time": "AM/PM",
+      "conflicts_with": ["retinol", "aha", "vitamin_c_acidic"],
+      "pairs_well_with": ["niacinamide", "green_tea", "hyaluronic_acid", "centella_asiatica"],
+      "warning": "Can be drying. Start with 2-3x weekly. Avoid if allergic to aspirin.",
+      "irritation_risk": "medium",
+      "stability": "stable"
+    },
+    "glycolic acid": {
+      "display_name": "Glycolic Acid (AHA)",
+      "type": "aha",
+      "strength": "medium",
+      "best_time": "PM",
+      "conflicts_with": ["retinol", "bha", "vitamin_c_acidic", "physical_scrubs"],
+      "pairs_well_with": ["hyaluronic_acid", "ceramides", "peptides", "niacinamide"],
+      "warning": "Increases sun sensitivity. Always use sunscreen the next day.",
+      "irritation_risk": "medium",
+      "stability": "stable"
+    },
+    "l-ascorbic acid": {
+      "display_name": "Vitamin C (L-Ascorbic Acid)",
+      "type": "vitamin_c_acidic",
+      "strength": "high",
+      "best_time": "AM",
+      "conflicts_with": ["retinol", "aha", "bha", "niacinamide", "benzoyl_peroxide"],
+      "pairs_well_with": ["vitamin_e", "ferulic_acid", "sunscreen", "hyaluronic_acid"],
+      "warning": "Unstable formulation. Store in cool, dark place. May cause tingling.",
+      "irritation_risk": "low",
+      "stability": "unstable"
+    },
+    "niacinamide": {
+      "display_name": "Niacinamide",
+      "type": "barrier_support",
+      "strength": "low",
+      "best_time": "AM/PM",
+      "conflicts_with": ["vitamin_c_acidic"],
+      "pairs_well_with": ["retinol", "bha", "aha", "hyaluronic_acid", "ceramides", "peptides"],
+      "warning": "Generally well-tolerated. High concentrations may cause flushing.",
+      "irritation_risk": "low",
+      "stability": "stable"
+    },
+    "hyaluronic acid": {
+      "display_name": "Hyaluronic Acid",
+      "type": "humectant",
+      "strength": "low",
+      "best_time": "AM/PM",
+      "conflicts_with": [],
+      "pairs_well_with": ["retinol", "bha", "aha", "vitamin_c_acidic", "niacinamide", "peptides"],
+      "warning": "Apply to damp skin for best results. Can feel sticky in high concentrations.",
+      "irritation_risk": "very_low",
+      "stability": "stable"
+    },
+    "ceramides": {
+      "display_name": "Ceramides",
+      "type": "barrier_support",
+      "strength": "low",
+      "best_time": "AM/PM",
+      "conflicts_with": [],
+      "pairs_well_with": ["retinol", "bha", "aha", "hyaluronic_acid", "niacinamide"],
+      "warning": "Excellent for barrier repair. No known conflicts.",
+      "irritation_risk": "very_low",
+      "stability": "stable"
+    },
+    "sunscreen": {
+      "display_name": "Sunscreen",
+      "type": "sun_protection",
+      "strength": "essential",
+      "best_time": "AM",
+      "conflicts_with": [],
+      "pairs_well_with": ["vitamin_c_acidic", "aha", "retinol", "all_actives"],
+      "warning": "Non-negotiable when using actives. Reapply every 2 hours in sun.",
+      "irritation_risk": "very_low",
+      "stability": "stable"
+    },
+    "peptides": {
+      "display_name": "Peptides",
+      "type": "anti_aging",
+      "strength": "low",
+      "best_time": "AM/PM",
+      "conflicts_with": [],
+      "pairs_well_with": ["retinol", "vitamin_c_acidic", "hyaluronic_acid", "niacinamide"],
+      "warning": "Gentle and compatible with most ingredients.",
+      "irritation_risk": "very_low",
+      "stability": "stable"
+    }
+  },
+  "category_rules": {
+    "cleanser": { "step": 1, "time": "AM/PM", "essential": true },
+    "toner": { "step": 2, "time": "AM/PM", "essential": false },
+    "essence": { "step": 2, "time": "AM/PM", "essential": false },
+    "treatment": { "step": 3, "time": "AM/PM", "essential": false },
+    "serum": { "step": 3, "time": "AM/PM", "essential": false },
+    "moisturizer": { "step": 4, "time": "AM/PM", "essential": true },
+    "sunscreen": { "step": 5, "time": "AM", "essential": true },
+    "face_oil": { "step": 5, "time": "PM", "essential": false },
+    "mask": { "step": 0, "time": "PM", "essential": false }
+  },
+  "keywords_to_ingredients": {
+    "retinol": "retinol",
+    "retinoid": "retinol",
+    "retinal": "retinol",
+    "bha": "salicylic acid",
+    "salicylic": "salicylic acid",
+    "betaine salicylate": "salicylic acid",
+    "aha": "glycolic acid",
+    "glycolic": "glycolic acid",
+    "lactic": "glycolic acid",
+    "mandelic": "glycolic acid",
+    "vitamin c": "l-ascorbic acid",
+    "ascorbic acid": "l-ascorbic acid",
+    "l-ascorbic": "l-ascorbic acid",
+    "niacinamide": "niacinamide",
+    "nicotinamide": "niacinamide",
+    "hyaluronic": "hyaluronic acid",
+    "sodium hyaluronate": "hyaluronic acid",
+    "ceramide": "ceramides",
+    "ceramide np": "ceramides",
+    "ceramide ap": "ceramides",
+    "sunscreen": "sunscreen",
+    "spf": "sunscreen",
+    "uv filter": "sunscreen",
+    "peptide": "peptides",
+    "palmitoyl": "peptides",
+    "matrixyl": "peptides"
+  },
+  "routine_guidelines": {
+    "max_actives_per_routine": 2,
+    "mandatory_sunscreen_with_actives": true,
+    "buffer_retinol": true,
+    "patch_test_new_products": true,
+    "introduction_period": "2_weeks"
+  }
+}
